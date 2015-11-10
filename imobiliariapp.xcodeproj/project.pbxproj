@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3058C581BF246CB0074B8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C571BF246CB0074B8FD /* AppDelegate.swift */; };
+		F3058C5A1BF246CB0074B8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C591BF246CB0074B8FD /* ViewController.swift */; };
+		F3058C5D1BF246CB0074B8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3058C5B1BF246CB0074B8FD /* Main.storyboard */; };
+		F3058C5F1BF246CB0074B8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3058C5E1BF246CB0074B8FD /* Assets.xcassets */; };
+		F3058C621BF246CB0074B8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3058C601BF246CB0074B8FD /* LaunchScreen.storyboard */; };
+		F3058C6D1BF246CB0074B8FD /* imobiliariappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C6C1BF246CB0074B8FD /* imobiliariappTests.swift */; };
+		F3058C781BF246CB0074B8FD /* imobiliariappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C771BF246CB0074B8FD /* imobiliariappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3058C691BF246CB0074B8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3058C4C1BF246CB0074B8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3058C531BF246CB0074B8FD;
+			remoteInfo = imobiliariapp;
+		};
+		F3058C741BF246CB0074B8FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3058C4C1BF246CB0074B8FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3058C531BF246CB0074B8FD;
+			remoteInfo = imobiliariapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3058C541BF246CB0074B8FD /* imobiliariapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imobiliariapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3058C571BF246CB0074B8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3058C591BF246CB0074B8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3058C5C1BF246CB0074B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3058C5E1BF246CB0074B8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3058C611BF246CB0074B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3058C631BF246CB0074B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3058C681BF246CB0074B8FD /* imobiliariappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imobiliariappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3058C6C1BF246CB0074B8FD /* imobiliariappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imobiliariappTests.swift; sourceTree = "<group>"; };
+		F3058C6E1BF246CB0074B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3058C731BF246CB0074B8FD /* imobiliariappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imobiliariappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3058C771BF246CB0074B8FD /* imobiliariappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imobiliariappUITests.swift; sourceTree = "<group>"; };
+		F3058C791BF246CB0074B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3058C511BF246CB0074B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C651BF246CB0074B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C701BF246CB0074B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3058C4B1BF246CB0074B8FD = {
+			isa = PBXGroup;
+			children = (
+				F3058C561BF246CB0074B8FD /* imobiliariapp */,
+				F3058C6B1BF246CB0074B8FD /* imobiliariappTests */,
+				F3058C761BF246CB0074B8FD /* imobiliariappUITests */,
+				F3058C551BF246CB0074B8FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3058C551BF246CB0074B8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3058C541BF246CB0074B8FD /* imobiliariapp.app */,
+				F3058C681BF246CB0074B8FD /* imobiliariappTests.xctest */,
+				F3058C731BF246CB0074B8FD /* imobiliariappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3058C561BF246CB0074B8FD /* imobiliariapp */ = {
+			isa = PBXGroup;
+			children = (
+				F3058C571BF246CB0074B8FD /* AppDelegate.swift */,
+				F3058C591BF246CB0074B8FD /* ViewController.swift */,
+				F3058C5B1BF246CB0074B8FD /* Main.storyboard */,
+				F3058C5E1BF246CB0074B8FD /* Assets.xcassets */,
+				F3058C601BF246CB0074B8FD /* LaunchScreen.storyboard */,
+				F3058C631BF246CB0074B8FD /* Info.plist */,
+			);
+			path = imobiliariapp;
+			sourceTree = "<group>";
+		};
+		F3058C6B1BF246CB0074B8FD /* imobiliariappTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3058C6C1BF246CB0074B8FD /* imobiliariappTests.swift */,
+				F3058C6E1BF246CB0074B8FD /* Info.plist */,
+			);
+			path = imobiliariappTests;
+			sourceTree = "<group>";
+		};
+		F3058C761BF246CB0074B8FD /* imobiliariappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3058C771BF246CB0074B8FD /* imobiliariappUITests.swift */,
+				F3058C791BF246CB0074B8FD /* Info.plist */,
+			);
+			path = imobiliariappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3058C531BF246CB0074B8FD /* imobiliariapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3058C7C1BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariapp" */;
+			buildPhases = (
+				F3058C501BF246CB0074B8FD /* Sources */,
+				F3058C511BF246CB0074B8FD /* Frameworks */,
+				F3058C521BF246CB0074B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = imobiliariapp;
+			productName = imobiliariapp;
+			productReference = F3058C541BF246CB0074B8FD /* imobiliariapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3058C671BF246CB0074B8FD /* imobiliariappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3058C7F1BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappTests" */;
+			buildPhases = (
+				F3058C641BF246CB0074B8FD /* Sources */,
+				F3058C651BF246CB0074B8FD /* Frameworks */,
+				F3058C661BF246CB0074B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3058C6A1BF246CB0074B8FD /* PBXTargetDependency */,
+			);
+			name = imobiliariappTests;
+			productName = imobiliariappTests;
+			productReference = F3058C681BF246CB0074B8FD /* imobiliariappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3058C721BF246CB0074B8FD /* imobiliariappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3058C821BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappUITests" */;
+			buildPhases = (
+				F3058C6F1BF246CB0074B8FD /* Sources */,
+				F3058C701BF246CB0074B8FD /* Frameworks */,
+				F3058C711BF246CB0074B8FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3058C751BF246CB0074B8FD /* PBXTargetDependency */,
+			);
+			name = imobiliariappUITests;
+			productName = imobiliariappUITests;
+			productReference = F3058C731BF246CB0074B8FD /* imobiliariappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3058C4C1BF246CB0074B8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Felipe Dantas";
+				TargetAttributes = {
+					F3058C531BF246CB0074B8FD = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F3058C671BF246CB0074B8FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F3058C531BF246CB0074B8FD;
+					};
+					F3058C721BF246CB0074B8FD = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F3058C531BF246CB0074B8FD;
+					};
+				};
+			};
+			buildConfigurationList = F3058C4F1BF246CB0074B8FD /* Build configuration list for PBXProject "imobiliariapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3058C4B1BF246CB0074B8FD;
+			productRefGroup = F3058C551BF246CB0074B8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3058C531BF246CB0074B8FD /* imobiliariapp */,
+				F3058C671BF246CB0074B8FD /* imobiliariappTests */,
+				F3058C721BF246CB0074B8FD /* imobiliariappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3058C521BF246CB0074B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3058C621BF246CB0074B8FD /* LaunchScreen.storyboard in Resources */,
+				F3058C5F1BF246CB0074B8FD /* Assets.xcassets in Resources */,
+				F3058C5D1BF246CB0074B8FD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C661BF246CB0074B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C711BF246CB0074B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3058C501BF246CB0074B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3058C5A1BF246CB0074B8FD /* ViewController.swift in Sources */,
+				F3058C581BF246CB0074B8FD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C641BF246CB0074B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3058C6D1BF246CB0074B8FD /* imobiliariappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3058C6F1BF246CB0074B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3058C781BF246CB0074B8FD /* imobiliariappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3058C6A1BF246CB0074B8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3058C531BF246CB0074B8FD /* imobiliariapp */;
+			targetProxy = F3058C691BF246CB0074B8FD /* PBXContainerItemProxy */;
+		};
+		F3058C751BF246CB0074B8FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3058C531BF246CB0074B8FD /* imobiliariapp */;
+			targetProxy = F3058C741BF246CB0074B8FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3058C5B1BF246CB0074B8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3058C5C1BF246CB0074B8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3058C601BF246CB0074B8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3058C611BF246CB0074B8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3058C7A1BF246CB0074B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3058C7B1BF246CB0074B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3058C7D1BF246CB0074B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imobiliariapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F3058C7E1BF246CB0074B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = imobiliariapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F3058C801BF246CB0074B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imobiliariappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imobiliariapp.app/imobiliariapp";
+			};
+			name = Debug;
+		};
+		F3058C811BF246CB0074B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = imobiliariappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/imobiliariapp.app/imobiliariapp";
+			};
+			name = Release;
+		};
+		F3058C831BF246CB0074B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imobiliariappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imobiliariapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F3058C841BF246CB0074B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = imobiliariappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = imobiliariapp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3058C4F1BF246CB0074B8FD /* Build configuration list for PBXProject "imobiliariapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3058C7A1BF246CB0074B8FD /* Debug */,
+				F3058C7B1BF246CB0074B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3058C7C1BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3058C7D1BF246CB0074B8FD /* Debug */,
+				F3058C7E1BF246CB0074B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3058C7F1BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3058C801BF246CB0074B8FD /* Debug */,
+				F3058C811BF246CB0074B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F3058C821BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3058C831BF246CB0074B8FD /* Debug */,
+				F3058C841BF246CB0074B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3058C4C1BF246CB0074B8FD /* Project object */;
+}
