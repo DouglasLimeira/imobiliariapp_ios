@@ -8,12 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		F3058C581BF246CB0074B8FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C571BF246CB0074B8FD /* AppDelegate.swift */; };
-		F3058C5A1BF246CB0074B8FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C591BF246CB0074B8FD /* ViewController.swift */; };
 		F3058C5D1BF246CB0074B8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3058C5B1BF246CB0074B8FD /* Main.storyboard */; };
 		F3058C5F1BF246CB0074B8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3058C5E1BF246CB0074B8FD /* Assets.xcassets */; };
 		F3058C621BF246CB0074B8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3058C601BF246CB0074B8FD /* LaunchScreen.storyboard */; };
 		F3058C6D1BF246CB0074B8FD /* imobiliariappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C6C1BF246CB0074B8FD /* imobiliariappTests.swift */; };
 		F3058C781BF246CB0074B8FD /* imobiliariappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C771BF246CB0074B8FD /* imobiliariappUITests.swift */; };
+		F3058C881BF248DF0074B8FD /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3058C871BF248DF0074B8FD /* SWRevealViewController.m */; };
+		F3058C8A1BF261690074B8FD /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C891BF261690074B8FD /* MenuVC.swift */; };
+		F3058C8C1BF2691D0074B8FD /* InicioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3058C8B1BF2691D0074B8FD /* InicioVC.swift */; };
+		F37193841C0032BD00FEF4C4 /* PesquisaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37193831C0032BD00FEF4C4 /* PesquisaVC.swift */; };
+		F37193861C03B6BA00FEF4C4 /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F37193851C03B6BA00FEF4C4 /* CadastroVC.swift */; };
+		F3783BEE1BFB69080098F1BC /* Imovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BED1BFB69080098F1BC /* Imovel.swift */; };
+		F3783BF01BFB6BC30098F1BC /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BEF1BFB6BC30098F1BC /* Usuario.swift */; };
+		F3783BF31BFB6E290098F1BC /* TipoUsuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BF21BFB6E290098F1BC /* TipoUsuario.swift */; };
+		F3783BF51BFB6F080098F1BC /* TipoImovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BF41BFB6F080098F1BC /* TipoImovel.swift */; };
+		F3783BF71BFB71C30098F1BC /* TipoUso.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BF61BFB71C30098F1BC /* TipoUso.swift */; };
+		F3783BF91BFB72A10098F1BC /* PosicaoSol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BF81BFB72A10098F1BC /* PosicaoSol.swift */; };
+		F3783BFB1BFE0D930098F1BC /* FotoImovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BFA1BFE0D930098F1BC /* FotoImovel.swift */; };
+		F3783BFD1BFE0E0A0098F1BC /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BFC1BFE0E0A0098F1BC /* Util.swift */; };
+		F3783BFF1BFE0E7C0098F1BC /* TipoFotoImovel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783BFE1BFE0E7C0098F1BC /* TipoFotoImovel.swift */; };
+		F3783C011BFE33170098F1BC /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C001BFE33170098F1BC /* WebService.swift */; };
+		F3783C031BFE433D0098F1BC /* ListaTBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C021BFE433D0098F1BC /* ListaTBC.swift */; };
+		F3783C051BFE46600098F1BC /* ListaConstrucaoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C041BFE46600098F1BC /* ListaConstrucaoVC.swift */; };
+		F3783C081BFEC9E10098F1BC /* ListaProntosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C071BFEC9E00098F1BC /* ListaProntosVC.swift */; };
+		F3783C0C1BFED12C0098F1BC /* ParametrosPesquisa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C0B1BFED12C0098F1BC /* ParametrosPesquisa.swift */; };
+		F3783C0E1BFED49C0098F1BC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3783C0D1BFED49C0098F1BC /* MapKit.framework */; };
+		F3783C121BFF50380098F1BC /* DetalheImovelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3783C111BFF50380098F1BC /* DetalheImovelVC.swift */; };
+		F39403611BF38B1D005A2F17 /* Icones.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39403601BF38B1D005A2F17 /* Icones.xcassets */; };
+		F39403631BF4CFB1005A2F17 /* MapaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39403621BF4CFB1005A2F17 /* MapaVC.swift */; };
+		F3A054071BFA627B00D7E91E /* Imagens.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A054061BFA627B00D7E91E /* Imagens.xcassets */; };
+		F3A054201BFA695100D7E91E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A054131BFA692F00D7E91E /* Alamofire.framework */; };
+		F3A054211BFA695100D7E91E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F3A054131BFA692F00D7E91E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,12 +56,81 @@
 			remoteGlobalIDString = F3058C531BF246CB0074B8FD;
 			remoteInfo = imobiliariapp;
 		};
+		F3A054121BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		F3A054141BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		F3A054161BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		F3A054181BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		F3A0541A1BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS";
+		};
+		F3A0541C1BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
+			remoteInfo = "Alamofire tvOS Tests";
+		};
+		F3A0541E1BFA692F00D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4202FE01B667AA100C997FB;
+			remoteInfo = "Alamofire watchOS";
+		};
+		F3A054221BFA695100D7E91E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3A054241BFA695100D7E91E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F3A054211BFA695100D7E91E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F3058C541BF246CB0074B8FD /* imobiliariapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imobiliariapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3058C571BF246CB0074B8FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F3058C591BF246CB0074B8FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3058C5C1BF246CB0074B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F3058C5E1BF246CB0074B8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3058C611BF246CB0074B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +141,33 @@
 		F3058C731BF246CB0074B8FD /* imobiliariappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imobiliariappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3058C771BF246CB0074B8FD /* imobiliariappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imobiliariappUITests.swift; sourceTree = "<group>"; };
 		F3058C791BF246CB0074B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3058C851BF248DE0074B8FD /* imobiliariapp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imobiliariapp-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3058C861BF248DF0074B8FD /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		F3058C871BF248DF0074B8FD /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		F3058C891BF261690074B8FD /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		F3058C8B1BF2691D0074B8FD /* InicioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InicioVC.swift; sourceTree = "<group>"; };
+		F37193831C0032BD00FEF4C4 /* PesquisaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PesquisaVC.swift; sourceTree = "<group>"; };
+		F37193851C03B6BA00FEF4C4 /* CadastroVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
+		F3783BED1BFB69080098F1BC /* Imovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Imovel.swift; sourceTree = "<group>"; };
+		F3783BEF1BFB6BC30098F1BC /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		F3783BF21BFB6E290098F1BC /* TipoUsuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoUsuario.swift; sourceTree = "<group>"; };
+		F3783BF41BFB6F080098F1BC /* TipoImovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoImovel.swift; sourceTree = "<group>"; };
+		F3783BF61BFB71C30098F1BC /* TipoUso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoUso.swift; sourceTree = "<group>"; };
+		F3783BF81BFB72A10098F1BC /* PosicaoSol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PosicaoSol.swift; sourceTree = "<group>"; };
+		F3783BFA1BFE0D930098F1BC /* FotoImovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FotoImovel.swift; sourceTree = "<group>"; };
+		F3783BFC1BFE0E0A0098F1BC /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		F3783BFE1BFE0E7C0098F1BC /* TipoFotoImovel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoFotoImovel.swift; sourceTree = "<group>"; };
+		F3783C001BFE33170098F1BC /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		F3783C021BFE433D0098F1BC /* ListaTBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaTBC.swift; sourceTree = "<group>"; };
+		F3783C041BFE46600098F1BC /* ListaConstrucaoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaConstrucaoVC.swift; sourceTree = "<group>"; };
+		F3783C071BFEC9E00098F1BC /* ListaProntosVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaProntosVC.swift; sourceTree = "<group>"; };
+		F3783C0B1BFED12C0098F1BC /* ParametrosPesquisa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParametrosPesquisa.swift; sourceTree = "<group>"; };
+		F3783C0D1BFED49C0098F1BC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F3783C111BFF50380098F1BC /* DetalheImovelVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetalheImovelVC.swift; sourceTree = "<group>"; };
+		F39403601BF38B1D005A2F17 /* Icones.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icones.xcassets; sourceTree = "<group>"; };
+		F39403621BF4CFB1005A2F17 /* MapaVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapaVC.swift; sourceTree = "<group>"; };
+		F3A054061BFA627B00D7E91E /* Imagens.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Imagens.xcassets; sourceTree = "<group>"; };
+		F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +175,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3783C0E1BFED49C0098F1BC /* MapKit.framework in Frameworks */,
+				F3A054201BFA695100D7E91E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +200,8 @@
 		F3058C4B1BF246CB0074B8FD = {
 			isa = PBXGroup;
 			children = (
+				F3783C0D1BFED49C0098F1BC /* MapKit.framework */,
+				F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */,
 				F3058C561BF246CB0074B8FD /* imobiliariapp */,
 				F3058C6B1BF246CB0074B8FD /* imobiliariappTests */,
 				F3058C761BF246CB0074B8FD /* imobiliariappUITests */,
@@ -97,12 +222,28 @@
 		F3058C561BF246CB0074B8FD /* imobiliariapp */ = {
 			isa = PBXGroup;
 			children = (
-				F3058C571BF246CB0074B8FD /* AppDelegate.swift */,
-				F3058C591BF246CB0074B8FD /* ViewController.swift */,
+				F3783BE61BFB68F20098F1BC /* Model */,
 				F3058C5B1BF246CB0074B8FD /* Main.storyboard */,
-				F3058C5E1BF246CB0074B8FD /* Assets.xcassets */,
+				F3058C891BF261690074B8FD /* MenuVC.swift */,
+				F3058C8B1BF2691D0074B8FD /* InicioVC.swift */,
+				F37193851C03B6BA00FEF4C4 /* CadastroVC.swift */,
+				F37193831C0032BD00FEF4C4 /* PesquisaVC.swift */,
+				F39403621BF4CFB1005A2F17 /* MapaVC.swift */,
+				F3783C021BFE433D0098F1BC /* ListaTBC.swift */,
+				F3783C041BFE46600098F1BC /* ListaConstrucaoVC.swift */,
+				F3783C071BFEC9E00098F1BC /* ListaProntosVC.swift */,
+				F3783C111BFF50380098F1BC /* DetalheImovelVC.swift */,
+				F3783C001BFE33170098F1BC /* WebService.swift */,
+				F3783BFC1BFE0E0A0098F1BC /* Util.swift */,
+				F3058C571BF246CB0074B8FD /* AppDelegate.swift */,
 				F3058C601BF246CB0074B8FD /* LaunchScreen.storyboard */,
 				F3058C631BF246CB0074B8FD /* Info.plist */,
+				F3058C861BF248DF0074B8FD /* SWRevealViewController.h */,
+				F3058C871BF248DF0074B8FD /* SWRevealViewController.m */,
+				F3058C851BF248DE0074B8FD /* imobiliariapp-Bridging-Header.h */,
+				F3058C5E1BF246CB0074B8FD /* Assets.xcassets */,
+				F39403601BF38B1D005A2F17 /* Icones.xcassets */,
+				F3A054061BFA627B00D7E91E /* Imagens.xcassets */,
 			);
 			path = imobiliariapp;
 			sourceTree = "<group>";
@@ -125,6 +266,44 @@
 			path = imobiliariappUITests;
 			sourceTree = "<group>";
 		};
+		F3783BE61BFB68F20098F1BC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3783BF11BFB6E1B0098F1BC /* Enum */,
+				F3783BED1BFB69080098F1BC /* Imovel.swift */,
+				F3783BEF1BFB6BC30098F1BC /* Usuario.swift */,
+				F3783BFA1BFE0D930098F1BC /* FotoImovel.swift */,
+				F3783C0B1BFED12C0098F1BC /* ParametrosPesquisa.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F3783BF11BFB6E1B0098F1BC /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F3783BF21BFB6E290098F1BC /* TipoUsuario.swift */,
+				F3783BF41BFB6F080098F1BC /* TipoImovel.swift */,
+				F3783BF61BFB71C30098F1BC /* TipoUso.swift */,
+				F3783BF81BFB72A10098F1BC /* PosicaoSol.swift */,
+				F3783BFE1BFE0E7C0098F1BC /* TipoFotoImovel.swift */,
+			);
+			name = Enum;
+			sourceTree = "<group>";
+		};
+		F3A054091BFA692F00D7E91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A054131BFA692F00D7E91E /* Alamofire.framework */,
+				F3A054151BFA692F00D7E91E /* Alamofire iOS Tests.xctest */,
+				F3A054171BFA692F00D7E91E /* Alamofire.framework */,
+				F3A054191BFA692F00D7E91E /* Alamofire OSX Tests.xctest */,
+				F3A0541B1BFA692F00D7E91E /* Alamofire.framework */,
+				F3A0541D1BFA692F00D7E91E /* Alamofire tvOS Tests.xctest */,
+				F3A0541F1BFA692F00D7E91E /* Alamofire.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +314,12 @@
 				F3058C501BF246CB0074B8FD /* Sources */,
 				F3058C511BF246CB0074B8FD /* Frameworks */,
 				F3058C521BF246CB0074B8FD /* Resources */,
+				F3A054241BFA695100D7E91E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F3A054231BFA695100D7E91E /* PBXTargetDependency */,
 			);
 			name = imobiliariapp;
 			productName = imobiliariapp;
@@ -215,6 +396,12 @@
 			mainGroup = F3058C4B1BF246CB0074B8FD;
 			productRefGroup = F3058C551BF246CB0074B8FD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F3A054091BFA692F00D7E91E /* Products */;
+					ProjectRef = F3A054081BFA692F00D7E91E /* Alamofire.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F3058C531BF246CB0074B8FD /* imobiliariapp */,
@@ -224,12 +411,66 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F3A054131BFA692F00D7E91E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3A054121BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A054151BFA692F00D7E91E /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = F3A054141BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A054171BFA692F00D7E91E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3A054161BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A054191BFA692F00D7E91E /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = F3A054181BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A0541B1BFA692F00D7E91E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3A0541A1BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A0541D1BFA692F00D7E91E /* Alamofire tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire tvOS Tests.xctest";
+			remoteRef = F3A0541C1BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F3A0541F1BFA692F00D7E91E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = F3A0541E1BFA692F00D7E91E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F3058C521BF246CB0074B8FD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3058C621BF246CB0074B8FD /* LaunchScreen.storyboard in Resources */,
+				F39403611BF38B1D005A2F17 /* Icones.xcassets in Resources */,
+				F3A054071BFA627B00D7E91E /* Imagens.xcassets in Resources */,
 				F3058C5F1BF246CB0074B8FD /* Assets.xcassets in Resources */,
 				F3058C5D1BF246CB0074B8FD /* Main.storyboard in Resources */,
 			);
@@ -256,8 +497,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3058C5A1BF246CB0074B8FD /* ViewController.swift in Sources */,
+				F3783BF01BFB6BC30098F1BC /* Usuario.swift in Sources */,
+				F3058C8A1BF261690074B8FD /* MenuVC.swift in Sources */,
+				F37193841C0032BD00FEF4C4 /* PesquisaVC.swift in Sources */,
+				F3783BF71BFB71C30098F1BC /* TipoUso.swift in Sources */,
 				F3058C581BF246CB0074B8FD /* AppDelegate.swift in Sources */,
+				F3783BF31BFB6E290098F1BC /* TipoUsuario.swift in Sources */,
+				F3783BFB1BFE0D930098F1BC /* FotoImovel.swift in Sources */,
+				F3058C881BF248DF0074B8FD /* SWRevealViewController.m in Sources */,
+				F3783BF91BFB72A10098F1BC /* PosicaoSol.swift in Sources */,
+				F37193861C03B6BA00FEF4C4 /* CadastroVC.swift in Sources */,
+				F3783C121BFF50380098F1BC /* DetalheImovelVC.swift in Sources */,
+				F3783C081BFEC9E10098F1BC /* ListaProntosVC.swift in Sources */,
+				F3783BEE1BFB69080098F1BC /* Imovel.swift in Sources */,
+				F3783C011BFE33170098F1BC /* WebService.swift in Sources */,
+				F3058C8C1BF2691D0074B8FD /* InicioVC.swift in Sources */,
+				F3783C0C1BFED12C0098F1BC /* ParametrosPesquisa.swift in Sources */,
+				F3783C051BFE46600098F1BC /* ListaConstrucaoVC.swift in Sources */,
+				F3783BFD1BFE0E0A0098F1BC /* Util.swift in Sources */,
+				F3783C031BFE433D0098F1BC /* ListaTBC.swift in Sources */,
+				F39403631BF4CFB1005A2F17 /* MapaVC.swift in Sources */,
+				F3783BFF1BFE0E7C0098F1BC /* TipoFotoImovel.swift in Sources */,
+				F3783BF51BFB6F080098F1BC /* TipoImovel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +550,11 @@
 			isa = PBXTargetDependency;
 			target = F3058C531BF246CB0074B8FD /* imobiliariapp */;
 			targetProxy = F3058C741BF246CB0074B8FD /* PBXContainerItemProxy */;
+		};
+		F3A054231BFA695100D7E91E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = F3A054221BFA695100D7E91E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -399,10 +665,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = imobiliariapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imobiliariapp/imobiliariapp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -410,10 +680,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = imobiliariapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fdantas.imobiliariapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imobiliariapp/imobiliariapp-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +757,7 @@
 				F3058C7E1BF246CB0074B8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3058C7F1BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +766,7 @@
 				F3058C811BF246CB0074B8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3058C821BF246CB0074B8FD /* Build configuration list for PBXNativeTarget "imobiliariappUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +775,7 @@
 				F3058C841BF246CB0074B8FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
